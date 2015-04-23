@@ -230,7 +230,7 @@
             else
                 if accessor not of reference
                     throw new PatchConflictError("Value at #{accessor} does not exist")
-                delete reference[accessor]
+                reference[accessor] = undefined
             return document
 
 

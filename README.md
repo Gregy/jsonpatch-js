@@ -1,28 +1,6 @@
 # jsonpatch-js
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bruth/jsonpatch-js/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
-Library to apply JSON Patches in JavaScript
-
-- JSON Patch - http://tools.ietf.org/html/rfc6902
-- JSON Pointer - http://tools.ietf.org/html/rfc6901
-
-jsonpatch-js works as in the browser as a script, as a Node module and as an
-AMD module.
-
-## Install
-
-**Bower**
-
-```
-bower install json-patch
-```
-
-**NPM**
-
-```
-npm install json-patch
-```
+** Modified to work with mongoose documents. All delete operations instead write undefined. **
 
 **Note: at this time, all operations are applied in-place.**
 
