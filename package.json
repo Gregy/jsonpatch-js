@@ -1,8 +1,7 @@
 {
-  "name": "json-patch",
-  "author": "Byron Ruth <b@devel.io>",
+  "name": "json-patch-mongoose",
   "version": "0.5.0",
-  "description": "A JavaScript implementation of the JSON Object Notation (JSON) Patch http://tools.ietf.org/html/rfc6902 and JSON Pointer http://tools.ietf.org/html/rfc6901 specifications.",
+  "description": "A JavaScript implementation of the JSON Object Notation (JSON) Patch http://tools.ietf.org/html/rfc6902 and JSON Pointer http://tools.ietf.org/html/rfc6901 specifications. Modified to work with mongoose documents.",
   "license": "BSD",
   "keywords": [
     "diff",
@@ -17,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bruth/jsonpatch-js.git"
+    "url": "https://github.com/Gregy/jsonpatch-js"
   },
   "devDependencies": {
     "coffee-script": "^1.8.0"
